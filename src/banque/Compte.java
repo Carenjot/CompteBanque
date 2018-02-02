@@ -11,8 +11,9 @@ public class Compte {
 		this.solde += i;
 	}
 	
-	public void retirer(int i) {
+	public int retirer(int i) {
 		this.solde -= i;
+		return i;
 	}
 	
 	public int virer(int somme, Compte c) {
@@ -20,6 +21,9 @@ public class Compte {
 		c.deposer(somme);
 		return somme;
 	}
+	
+	@Override public String toString() {  return " Solde : "+this.solde ; } 
+	 
 	
 	public static void main(String[] args) {
 		
