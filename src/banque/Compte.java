@@ -34,8 +34,8 @@ public class Compte {
 		comptea.retirer(250);
 		System.out.println(comptea.toString());
 		comptea.virer(100, compteb);
-		System.out.println(" Compte A " + comptea.toString());
-		System.out.println(" Compte B " + compteb.toString());
+		System.out.println("Compte A " + comptea.toString());
+		System.out.println("Compte B " + compteb.toString());
 
 	}
 
