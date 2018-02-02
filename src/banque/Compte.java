@@ -1,7 +1,7 @@
 package banque;
 
 public class Compte {
-	private int solde;
+	public int solde;
 	
 	public Compte() {
 		this.solde = 0;
